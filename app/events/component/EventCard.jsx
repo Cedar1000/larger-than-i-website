@@ -8,8 +8,12 @@ import moment from "moment";
 
 const EventCard = ({ event }) => {
    const formattedDate = moment(event.startDate).format("MMMM D, YYYY");
+     const description =
+       event.description.length > 139
+         ? `${event.description.slice(0, 136)}...`
+         : event.description;
   return (
-    <div className="shadow-slip  relative pb-4 max-w-xs md:max-w-sm min-h-[485px]">
+    <div className="shadow-slip  relative pb-4 max-w-xs md:max-w-sm h-[495px]">
       
         <Link href={`/events/${event.id}`} passHref >
           <Image
@@ -30,7 +34,7 @@ const EventCard = ({ event }) => {
           </p>
         </div>
         <h3 className="text-xl font-bold mb-2">{event.title}</h3>
-        <p className="">{event.description}</p>
+        <p className="">{description}</p>
       </div>
     </div>
   );
