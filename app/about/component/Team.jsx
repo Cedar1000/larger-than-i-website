@@ -1,61 +1,68 @@
-import React from "react";
-import Image from "next/image";
-import {kemi, chiefson, dokun, doubra, elizabeth, favour, fidelia, izontimi, member, betty, amaebi} from "@/public/images"
+import React from 'react';
+import Image from 'next/image';
+import {
+  kemi,
+  chiefson,
+  dokun,
+  doubra,
+  elizabeth,
+  favour,
+  fidelia,
+  izontimi,
+  member,
+  betty,
+  amaebi,
+} from '@/public/images';
 
 const teamMembers = [
   {
-    name: "Pst Kemi Ogiemudia",
-    title: "President LTIDF",
+    name: 'Pst Kemi Ogiemudia',
+    title: 'President LTIDF',
     image: kemi,
   },
   {
-    name: "Deac. Izontimi Otuogha",
-    title: "Secretary of Larger Than I Developmental Foundation (LTIDF)",
+    name: 'Deac. Izontimi Otuogha',
+    title: 'Secretary of Larger Than I Developmental Foundation (LTIDF)',
     image: izontimi,
   },
   {
-    name: "Dr. Dokun Ogunniyi",
-    title: " Director of Research & Development",
+    name: 'Dr. Dokun Ogunniyi',
+    title: ' Director of Research & Development',
     image: dokun,
   },
   {
-    name: "Mrs. Doubra Ofoni",
-    title: "Director, Finance services",
+    name: 'Mrs. Doubra Ofoni',
+    title: 'Director, Finance services',
     image: doubra,
   },
   {
-    name: "Mrs. Elizabeth Owutuamor",
-    title: "Administrator, Special Kids Centre",
+    name: 'Mrs. Elizabeth Owutuamor',
+    title: 'Administrator, Special Kids Centre',
     image: elizabeth,
   },
   {
-    name: "Mrs. Betty Arofah",
-    title: "Director of Social Welfare Services",
+    name: 'Mrs. Betty Arofah',
+    title: 'Director of Social Welfare Services',
     image: betty,
   },
   {
-    name: "Mrs. Fidelia Ifidi",
-    title: "Name of MemberA School Administrator",
+    name: 'Mrs. Fidelia Ifidi',
+    title: 'Name of MemberA School Administrator',
     image: fidelia,
   },
   {
-    name: "Name of member",
-    title: "Name of position",
-    image: member,
-  },
-  {
-    name: "Mrs. Favour Egbeighu",
-    title: "Administrator, Main Stream School",
+    name: 'Mrs. Favour Egbeighu',
+    title: 'Administrator, Main Stream School',
     image: favour,
   },
   {
-    name: "Mr. Chiefson. I. Meindinyo",
-    title: "Director, Monitoring & Evaluation",
+    name: 'Mr. Chiefson. I. Meindinyo',
+    title: 'Director, Monitoring & Evaluation',
     image: chiefson,
   },
   {
-    name: "Mr. Amaebi Desmond Oti, esq",
-    title: "Director, LEGAL SERVICES",
+    name: 'Mr. Amaebi Desmond Oti, esq',
+    title: 'Director, LEGAL SERVICES',
     image: amaebi,
   },
 ];
